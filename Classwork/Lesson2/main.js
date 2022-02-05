@@ -51,11 +51,13 @@
 }
 
 //Task3
+{
 let x=prompt('Enter a number');
 if(x%10==0){
     console.log('True');
 }else {
     console.log('false')
+}
 }
 
 //Task4
