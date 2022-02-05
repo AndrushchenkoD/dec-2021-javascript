@@ -19,7 +19,7 @@
 
 //Task1
 {
-    let time = prompt('enter a number 0>60');
+    let time = +prompt('enter a number 0>60');
     if (time >=0 && time<=15){
         console.log('It is a first quater');
     }else if(time >15&&time<=30 ){
@@ -48,7 +48,7 @@
 {
 
     let test = prompt('true or false')
-if (test === true){
+if (test === 'true'){
     console.log('True');
 }else {
     console.log('False')
@@ -60,8 +60,8 @@ if (test === true){
 // }
 //Task4
 {
-    let a=prompt('enter a numer');
-    if(a !=0){
+    let a=+prompt('enter a numer');
+    if(a !==0){
     console.log('True');
     }
     else{
@@ -100,8 +100,8 @@ if (test === true){
 }
 //Task6
 {
-    let x=prompt('Введіть рік');
-    if(x%4==0){
+    let x=+prompt('Введіть рік');
+    if(x%4===0){
         console.log('Це високосний рік');
     }else {
         console.log('Це не високосний рік')
